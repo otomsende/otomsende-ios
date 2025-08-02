@@ -1,19 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard" version="3.0"
-          toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none"
-          useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <scenes>
         <scene sceneID="splashScene">
             <objects>
-                <viewController id="splashVC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mainView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController id="splashViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="splashView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit"
-                                       image="SplashImage" id="splashImage">
-                                <rect key="frame" x="57" y="206" width="300" height="300"/>
+                            <imageView contentMode="scaleAspectFit" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="splashLogo">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="height"/>
+                                    <constraint firstAttribute="width" constant="200" id="width"/>
+                                    <constraint firstAttribute="centerX" secondItem="splashView" secondAttribute="centerX" id="centerX"/>
+                                    <constraint firstAttribute="centerY" secondItem="splashView" secondAttribute="centerY" id="centerY"/>
+                                </constraints>
                             </imageView>
                         </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
             </objects>
