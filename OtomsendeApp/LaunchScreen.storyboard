@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard" version="3.0"
+          toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none"
+          useAutolayout="YES" useTraitCollections="YES">
+    <scenes>
+        <scene sceneID="splashScene">
+            <objects>
+                <viewController id="splashVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mainView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit"
+                                       image="SplashImage" id="splashImage">
+                                <rect key="frame" x="57" y="206" width="300" height="300"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+</document>
